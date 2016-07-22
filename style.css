@@ -1,38 +1,178 @@
-.flag{
-  width: 50%;
+.container{
+  width: 1200px;
   height: 50%;
+  border: 1px solid;
+  font-size: 0px;
   position: relative;
-  top: 20%;
-  margin: auto;
-  min-width: 40em;
-  max-width: 40em;
-}
+  min-height: 500px;
 
-.stripe1{
-  width: 100%;
-  height: 47.9%;
-  background-color: rgb(255, 238, 37);
+}
+.netherlands{
+  width: 37%;
+  height: 50%;
+  border: 1px solid black;
   position: relative;
-  text-align: center;
-  line-height: 14em;
+  display: inline-block;
 }
 
-.stripe1 p{
-  font-style: italic;
-  font-size: 7em;
-  color: green;
-}
-
-.stripe2{
+.netherlands .red{
   width: 100%;
-  height: 26.9%;
-  background-color: blue;
-  position: relative;
-}
-
-.stripe3{
-  width: 100%;
-  height: 25.1%;
+  height: 33%;
   background-color: red;
   position: relative;
+}
+
+.netherlands .blue{
+  width: 100%;
+  height: 33%;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+}
+
+.switzerland{
+  width: 20%;
+  height: 50%;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.switzerland .red{
+  width: 100%;
+  height: 100.6%;
+  background-color: red;
+}
+
+.switzerland .white1{
+  background-color: white;
+  height: 70%;
+  width: 20%;
+  margin: auto;
+  top: -200px;
+  position: relative;
+}
+
+.switzerland .white2{
+  background-color: white;
+  height: 20%;
+  width: 60%;
+  margin: auto;
+  top: -304px;
+  position: relative;
+}
+
+.japan{
+  text-align: center;
+  width: 42.5%;
+  height: 50%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.japan .red{
+  width: 40%;
+  height: 80%;
+  background-color: red;
+  border-radius: 70%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+}
+
+.iraq{
+  width: 33%;
+  height: 49.3%;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.iraq bdi{
+  font-size: 60px;
+  color: green;
+  line-height: 1.4;
+
+}
+
+.iraq .red{
+  width: 100%;
+  height: 33%;
+  background-color: red;
+}
+
+.iraq .black{
+  width: 100%;
+  height: 33%;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+
+.norway{
+  width: 33%;
+  height: 49.7%;
+  display: inline-block;
+  background-color: red;
+}
+
+.norway .white1{
+  width: 7%;
+  background: white;
+  position: absolute;
+  left: 40%;
+  height: 100%;
+}
+
+.norway .blue1{
+  width: 44%;
+  background: blue;
+  position: absolute;
+  left: 29%;
+  height: 49.6%;
+  z-index: 1;
+}
+
+.norway .white2{
+  width: 33.1%;
+  background: white;
+  position: absolute;
+  left: 33.1%;
+  height: 16.6%;
+  top: 67.2%;
+}
+
+.norway .blue2{
+  width: 100%;
+  background: blue;
+  position: absolute;
+  left: 0%;
+  height: 45.6%;
+  top: 28%;
+}
+
+.congo{
+  height: 49.3%;
+  width: 33.7%;
+  border: 1px solid black;
+  display: inline-block;
+  position: absolute;
+  background-color: yellow;
+}
+
+.congo .green{
+	border-top: 248px solid green;
+	border-right: 231px solid transparent;
+  display: inline-block;
+}
+
+.congo .red{
+  border-bottom: 248px solid red;
+  border-left: 231px solid transparent;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
